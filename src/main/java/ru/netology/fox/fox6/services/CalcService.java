@@ -12,7 +12,7 @@ public class CalcService {
             if (money >= threshold) {
 
                 count++;
-                money = (threshold - expense) / 3;
+                money = (money - expense) / 3;
 
             } else {
                 money = money + income - expense;
